@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shashini Anjana | Web Developer & Creative Designer</title>
+<meta name="description" content="Professional portfolio of Shashini Anjana, a Web Developer, Creative Designer and Digital Marketing professional specializing in PHP, WordPress, web design, graphic design, branding, SEO and social media.">
+<meta name="keywords" content="Shashini Anjana, Web Developer, Creative Designer, Digital Marketing, PHP Developer, WordPress Developer, Graphic Designer, Sri Lanka">
+<meta name="author" content="Shashini Anjana">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Shashini Anjana | Web Developer & Creative Designer">
+<meta property="og:description" content="Portfolio of Shashini Anjana — Web Developer, Creative Designer and Digital Marketing professional based in Sri Lanka.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/og-cover.jpg">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== NAVIGATION ===== -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">Shashini <span>Anjana</span></a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="Shashini_Anjana_CV.pdf" download class="nav-cv-btn">
+        <i class="bi bi-download"></i> Download CV
+      </a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="hero-noise" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="hero-kicker">Based in Baddegama, Sri Lanka</p>
+      <h1 class="hero-name">
+        Shashini<br>
+        <span class="hero-name-accent">Anjana</span>
+      </h1>
+      <div class="hero-roles">
+        <span>Web Developer</span>
+        <span>Creative Designer</span>
+        <span>Digital Marketing Professional</span>
+      </div>
+      <p class="hero-intro">
+        Web developer and creative designer pursuing a Bachelor of Technology in Multimedia and
+        Web Technology. I combine hands-on PHP and WordPress development with a strong graphic
+        design and branding background, and I work comfortably across the full production cycle —
+        from front-end design and development to SEO, content and campaign delivery.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="Shashini_Anjana_CV.pdf" download class="btn btn-outline">
+          <i class="bi bi-download"></i> Download CV
+        </a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 480 520" class="hero-svg">
+        <defs>
+          <linearGradient id="strokeGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#CBA35C"/>
+            <stop offset="100%" stop-color="#E8B4BC"/>
+          </linearGradient>
+        </defs>
+        <rect x="60" y="60" width="300" height="200" rx="14" fill="none" stroke="url(#strokeGrad)" stroke-width="1.4" opacity="0.55" class="draw-shape"/>
+        <circle cx="360" cy="330" r="90" fill="none" stroke="#CBA35C" stroke-width="1.2" opacity="0.45" class="draw-shape"/>
+        <path d="M90 340 C 150 300, 210 400, 280 360 S 400 300, 430 380" fill="none" stroke="#E8B4BC" stroke-width="1.6" opacity="0.6" class="draw-shape"/>
+        <line x1="60" y1="60" x2="360" y2="260" stroke="#CBA35C" stroke-width="0.6" opacity="0.3"/>
+        <circle cx="60" cy="60" r="4" fill="#CBA35C"/>
+        <circle cx="360" cy="260" r="4" fill="#E8B4BC"/>
+        <circle cx="130" cy="440" r="3" fill="#CBA35C"/>
+        <path d="M420 90 l14 14 -14 14 -14 -14 z" fill="none" stroke="#E8B4BC" stroke-width="1.2" opacity="0.6"/>
+        <text x="60" y="470" font-family="Fraunces, serif" font-size="17" fill="#F3EFE9" opacity="0.75">&lt;/&gt; design · code · grow</text>
+      </svg>
+    </div>
+  </div>
+  <a href="#about" class="hero-scroll" aria-label="Scroll to About section"><span></span></a>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about" id="about">
+  <div class="section-inner about-grid">
+    <div class="about-lead">
+      <h2 class="section-title">About</h2>
+      <p class="about-text">
+        Shashini is a web developer and creative designer currently pursuing a
+        <strong>Bachelor of Technology in Multimedia and Web Technology</strong> at the University of
+        Vocational Technology. Her work sits at the intersection of three disciplines: building with
+        <strong>PHP and WordPress</strong>, designing brand and campaign visuals in the
+        <strong>Adobe Creative Cloud</strong>, and running <strong>SEO, content and social media</strong>
+        efforts for real client accounts. She has also picked up an introductory foundation in
+        <strong>AI (OpenAI)</strong> and <strong>Cybersecurity (Cisco Networking Academy)</strong>, and is
+        comfortable collaborating directly with development teams to turn design work into
+        production-ready pages.
+      </p>
+    </div>
+
+    <div class="about-highlights">
+      <div class="highlight-card">
+        <i class="bi bi-code-slash"></i>
+        <h3>Web Development</h3>
+        <p>PHP web development, HTML &amp; CSS, and WordPress site builds — from structure to content updates.</p>
+      </div>
+      <div class="highlight-card">
+        <i class="bi bi-palette"></i>
+        <h3>Creative Design</h3>
+        <p>Graphics, layouts, logos and brand identity assets for web and print, built in Adobe Creative Cloud.</p>
+      </div>
+      <div class="highlight-card">
+        <i class="bi bi-megaphone"></i>
+        <h3>Digital Marketing</h3>
+        <p>Social content planning, paid ad campaigns and SEO support across Facebook, Instagram, LinkedIn and TikTok.</p>
+      </div>
+      <div class="highlight-card">
+        <i class="bi bi-shield-check"></i>
+        <h3>AI &amp; Cybersecurity</h3>
+        <p>Foundational knowledge of AI (OpenAI) and cybersecurity fundamentals (Cisco Networking Academy).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section class="skills" id="skills">
+  <div class="section-inner">
+    <h2 class="section-title">Skills</h2>
+    <p class="section-sub">Tools and disciplines she works with day to day.</p>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3><i class="bi bi-code-square"></i> Web Development</h3>
+        <ul class="skill-tags">
+          <li>PHP Web Development</li>
+          <li>HTML &amp; CSS</li>
+          <li>Web Design</li>
+          <li>WordPress</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3><i class="bi bi-brush"></i> Design</h3>
+        <ul class="skill-tags">
+          <li>Graphic Design</li>
+          <li>Logo Design</li>
+          <li>Branding</li>
+          <li>Adobe Creative Cloud</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3><i class="bi bi-graph-up-arrow"></i> Marketing</h3>
+        <ul class="skill-tags">
+          <li>SEO &amp; Content</li>
+          <li>Social Media</li>
+          <li>Paid Advertising</li>
+          <li>Campaign Content</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3><i class="bi bi-server"></i> Other</h3>
+        <ul class="skill-tags">
+          <li>Database Management</li>
+          <li>MS Office Suite</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="experience" id="experience">
+  <div class="section-inner">
+    <h2 class="section-title">Experience</h2>
+    <p class="section-sub">Four roles, moving from ICT fundamentals into design, development and marketing.</p>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Mar 2024 – Present</span>
+          <h3>Social Media Executive &amp; Graphic Designer</h3>
+          <p class="timeline-org">Aries Services</p>
+          <ul>
+            <li>Design and develop web pages and digital assets, supporting web design and development alongside core marketing duties.</li>
+            <li>Plan, schedule and manage content across Facebook, Instagram, LinkedIn and TikTok.</li>
+            <li>Set up, run and monitor paid ad campaigns and track performance across social platforms.</li>
+            <li>Create original graphic and campaign content from concept through to publication.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Oct 2021 – Jan 2024</span>
+          <h3>Creative Designer</h3>
+          <p class="timeline-org">RAPS Graphics Solutions</p>
+          <ul>
+            <li>Developed graphics and layouts for both web and print products.</li>
+            <li>Designed logos and brand identity assets for client projects.</li>
+            <li>Collaborated directly with development teams to deliver web-ready design assets.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Mar 2020 – Jan 2021</span>
+          <h3>Web Developer — Internship</h3>
+          <p class="timeline-org">Mahapola Ports &amp; Maritime Academy</p>
+          <ul>
+            <li>Managed website appearance, structure and content updates.</li>
+            <li>Supported SEO content and marketing initiatives to improve site visibility.</li>
+            <li>Contributed to brand and logo design, working alongside the development team.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Jun 2018 – Jan 2019</span>
+          <h3>ICT Technician — Internship</h3>
+          <p class="timeline-org">Vocational Training Institute</p>
+          <ul>
+            <li>Performed word processing, spreadsheet preparation and database management.</li>
+            <li>Managed internet and email operations, plus web development and print production tasks.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="projects" id="projects">
+  <div class="section-inner">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">A selection of coursework and client work. Replace the mockups below with real screenshots any time.</p>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-thumb" data-tech="PHP">
+          <svg viewBox="0 0 400 260" class="project-mock">
+            <rect x="0" y="0" width="400" height="260" fill="#1B1720"/>
+            <rect x="0" y="0" width="400" height="34" fill="#221D28"/>
+            <circle cx="20" cy="17" r="5" fill="#CBA35C" opacity="0.6"/>
+            <circle cx="38" cy="17" r="5" fill="#E8B4BC" opacity="0.5"/>
+            <circle cx="56" cy="17" r="5" fill="#4A4152"/>
+            <rect x="30" y="60" width="150" height="14" rx="3" fill="#CBA35C" opacity="0.7"/>
+            <rect x="30" y="86" width="220" height="8" rx="2" fill="#4A4152"/>
+            <rect x="30" y="102" width="180" height="8" rx="2" fill="#4A4152"/>
+            <rect x="30" y="130" width="100" height="70" rx="4" fill="none" stroke="#CBA35C" stroke-width="1" opacity="0.5"/>
+            <rect x="145" y="130" width="100" height="70" rx="4" fill="none" stroke="#E8B4BC" stroke-width="1" opacity="0.5"/>
+            <rect x="260" y="130" width="100" height="70" rx="4" fill="none" stroke="#4A4152" stroke-width="1"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <h3>The Diner Cafe</h3>
+            <span class="project-year">2019</span>
+          </div>
+          <p class="project-tag"><i class="bi bi-tag"></i> PHP</p>
+          <p class="project-desc">A café ordering / listings site built during her studies at the National Vocational Training Institute, Narahenpita.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            <a href="#" class="btn-link btn-link-muted"><i class="bi bi-github"></i> Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb" data-tech="PHP">
+          <svg viewBox="0 0 400 260" class="project-mock">
+            <rect x="0" y="0" width="400" height="260" fill="#1B1720"/>
+            <rect x="0" y="0" width="110" height="260" fill="#221D28"/>
+            <rect x="20" y="30" width="70" height="8" rx="2" fill="#CBA35C" opacity="0.7"/>
+            <rect x="20" y="60" width="70" height="6" rx="2" fill="#4A4152"/>
+            <rect x="20" y="78" width="70" height="6" rx="2" fill="#4A4152"/>
+            <rect x="20" y="96" width="70" height="6" rx="2" fill="#4A4152"/>
+            <rect x="140" y="30" width="230" height="60" rx="4" fill="none" stroke="#E8B4BC" stroke-width="1" opacity="0.5"/>
+            <rect x="140" y="104" width="110" height="120" rx="4" fill="none" stroke="#CBA35C" stroke-width="1" opacity="0.5"/>
+            <rect x="260" y="104" width="110" height="55" rx="4" fill="none" stroke="#4A4152" stroke-width="1"/>
+            <rect x="260" y="169" width="110" height="55" rx="4" fill="none" stroke="#4A4152" stroke-width="1"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <h3>CT Finance</h3>
+            <span class="project-year">2019</span>
+          </div>
+          <p class="project-tag"><i class="bi bi-tag"></i> PHP</p>
+          <p class="project-desc">A finance-tracking web application project from the National Vocational Training Institute, Narahenpita.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            <a href="#" class="btn-link btn-link-muted"><i class="bi bi-github"></i> Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb" data-tech="WordPress">
+          <svg viewBox="0 0 400 260" class="project-mock">
+            <rect x="0" y="0" width="400" height="260" fill="#1B1720"/>
+            <rect x="0" y="0" width="400" height="46" fill="#221D28"/>
+            <rect x="24" y="17" width="90" height="12" rx="3" fill="#CBA35C"/>
+            <rect x="230" y="19" width="36" height="8" rx="2" fill="#4A4152"/>
+            <rect x="278" y="19" width="36" height="8" rx="2" fill="#4A4152"/>
+            <rect x="326" y="19" width="36" height="8" rx="2" fill="#4A4152"/>
+            <rect x="24" y="80" width="352" height="90" rx="6" fill="none" stroke="#E8B4BC" stroke-width="1" opacity="0.55"/>
+            <rect x="44" y="100" width="140" height="10" rx="2" fill="#CBA35C" opacity="0.6"/>
+            <rect x="44" y="120" width="200" height="7" rx="2" fill="#4A4152"/>
+            <rect x="44" y="136" width="160" height="7" rx="2" fill="#4A4152"/>
+            <rect x="24" y="188" width="110" height="46" rx="4" fill="none" stroke="#4A4152" stroke-width="1"/>
+            <rect x="145" y="188" width="110" height="46" rx="4" fill="none" stroke="#4A4152" stroke-width="1"/>
+            <rect x="266" y="188" width="110" height="46" rx="4" fill="none" stroke="#4A4152" stroke-width="1"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <h3>Aries Services</h3>
+            <span class="project-year">2025</span>
+          </div>
+          <p class="project-tag"><i class="bi bi-tag"></i> WordPress</p>
+          <p class="project-desc">Company site built on WordPress for Aries Services Tool Company, Kalubowila, as part of her design and development work there.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            <a href="#" class="btn-link btn-link-muted"><i class="bi bi-github"></i> Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb" data-tech="PHP">
+          <svg viewBox="0 0 400 260" class="project-mock">
+            <rect x="0" y="0" width="400" height="260" fill="#1B1720"/>
+            <circle cx="330" cy="60" r="36" fill="none" stroke="#CBA35C" stroke-width="1.2" opacity="0.5"/>
+            <path d="M40 200 C 90 140, 140 220, 190 160 S 300 120, 360 170" fill="none" stroke="#E8B4BC" stroke-width="1.4" opacity="0.6"/>
+            <rect x="30" y="40" width="160" height="12" rx="3" fill="#CBA35C" opacity="0.7"/>
+            <rect x="30" y="66" width="220" height="7" rx="2" fill="#4A4152"/>
+            <rect x="30" y="82" width="180" height="7" rx="2" fill="#4A4152"/>
+            <rect x="30" y="220" width="90" height="24" rx="4" fill="none" stroke="#4A4152" stroke-width="1"/>
+            <rect x="132" y="220" width="90" height="24" rx="4" fill="none" stroke="#4A4152" stroke-width="1"/>
+          </svg>
+        </div>
+        <div class="project-body">
+          <div class="project-meta">
+            <h3>Agri Connect</h3>
+            <span class="project-year">2026</span>
+          </div>
+          <p class="project-tag"><i class="bi bi-tag"></i> PHP</p>
+          <p class="project-desc">A PHP project from the University of Vocational Technology, Ratmalana, connecting farmers with agricultural resources.</p>
+          <div class="project-actions">
+            <a href="#" class="btn-link">View Project <i class="bi bi-arrow-up-right"></i></a>
+            <a href="#" class="btn-link btn-link-muted"><i class="bi bi-github"></i> Code</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== EDUCATION ===== -->
+<section class="education" id="education">
+  <div class="section-inner">
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline timeline-compact">
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2022 – 2026 · Undergraduate</span>
+          <h3>BTech in Multimedia &amp; Web Technology</h3>
+          <p class="timeline-org">University of Vocational Technology</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Jan 2019 – Feb 2020 · Completed</span>
+          <h3>NVQ Level 5 Diploma</h3>
+          <p class="timeline-org">National Vocational Training Institute</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">Jan 2018 – Jun 2018 · Completed</span>
+          <h3>NVQ Level 4 ICTT Certificate</h3>
+          <p class="timeline-org">National Vocational Training Centre</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2017 · Completed</span>
+          <h3>G.C.E. Advanced Level</h3>
+          <p class="timeline-org">Dharmasena Attigala Balika Vidyalaya, Kesbewa</p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="timeline-date">2014 · Completed</span>
+          <h3>G.C.E. Ordinary Level</h3>
+          <p class="timeline-org">Dharmasena Attigala Balika Vidyalaya, Kesbewa</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section class="certifications" id="certifications">
+  <div class="section-inner">
+    <h2 class="section-title">Certifications</h2>
+
+    <div class="cert-grid">
+      <div class="cert-card">
+        <span class="cert-year">2026</span>
+        <h3>AI Foundations</h3>
+        <p>OpenAI</p>
+      </div>
+      <div class="cert-card">
+        <span class="cert-year">2026</span>
+        <h3>Introduction to Cybersecurity</h3>
+        <p>Cisco Networking Academy</p>
+      </div>
+      <div class="cert-card">
+        <span class="cert-year">2023</span>
+        <h3>Front-End Web Development</h3>
+        <p>University of Moratuwa — Online Learning Programme</p>
+      </div>
+      <div class="cert-card">
+        <span class="cert-year">2023</span>
+        <h3>Web Design for Beginners</h3>
+        <p>University of Moratuwa — Online Learning Programme</p>
+      </div>
+      <div class="cert-card">
+        <span class="cert-year">2023</span>
+        <h3>Python for Beginners</h3>
+        <p>University of Moratuwa — Online Learning Programme</p>
+      </div>
+      <div class="cert-card">
+        <span class="cert-year">2023</span>
+        <h3>Future Careers Bridge — Fundamental Track</h3>
+        <p>SLASSCOM</p>
+      </div>
+    </div>
+
+    <div class="languages">
+      <h3 class="languages-title">Languages</h3>
+      <div class="language-row">
+        <span>Sinhala</span><span class="language-level">Fluent</span>
+      </div>
+      <div class="language-row">
+        <span>English</span><span class="language-level">Working Proficiency</span>
+      </div>
+      <div class="language-row">
+        <span>Tamil</span><span class="language-level">Basic</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact" id="contact">
+  <div class="section-inner contact-grid">
+    <div class="contact-info">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-sub">Open to web development, design and digital marketing opportunities.</p>
+
+      <div class="contact-list">
+        <a href="tel:+94774113279" class="contact-item">
+          <i class="bi bi-telephone"></i>
+          <span>077 411 3279</span>
+        </a>
+        <a href="mailto:shashinianjana2017@gmail.com" class="contact-item">
+          <i class="bi bi-envelope"></i>
+          <span>shashinianjana2017@gmail.com</span>
+        </a>
+        <div class="contact-item">
+          <i class="bi bi-geo-alt"></i>
+          <span>No.77, Nawa Berillawatta, Halpatota, Baddegama, Sri Lanka</span>
+        </div>
+        <a href="https://www.linkedin.com/in/shashini-anjana-945868267/" target="_blank" rel="noopener" class="contact-item">
+          <i class="bi bi-linkedin"></i>
+          <span>linkedin.com/in/shashini-anjana</span>
+        </a>
+      </div>
+
+      <div class="contact-cta-row">
+        <a href="mailto:shashinianjana2017@gmail.com" class="btn btn-primary">Email Me</a>
+        <a href="tel:+94774113279" class="btn btn-outline">Call Me</a>
+        <a href="https://www.linkedin.com/in/shashini-anjana-945868267/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      </div>
+
+      <div class="contact-cv-row">
+        <a href="Shashini_Anjana_CV.pdf" download class="btn-link"><i class="bi bi-download"></i> Download CV</a>
+        <a href="Shashini_Anjana_CV.pdf" target="_blank" rel="noopener" class="btn-link btn-link-muted"><i class="bi bi-eye"></i> View CV</a>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <!--
+        Frontend-only form. To go live, wire this up to a backend or
+        an email service (e.g. Formspree, EmailJS, or a custom API route)
+        inside handleContactSubmit() in js/script.js.
+      -->
+      <div class="form-row">
+        <label for="cf-name">Name</label>
+        <input type="text" id="cf-name" name="name" required>
+      </div>
+      <div class="form-row">
+        <label for="cf-email">Email</label>
+        <input type="email" id="cf-email" name="email" required>
+      </div>
+      <div class="form-row">
+        <label for="cf-subject">Subject</label>
+        <input type="text" id="cf-subject" name="subject" required>
+      </div>
+      <div class="form-row">
+        <label for="cf-message">Message</label>
+        <textarea id="cf-message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+      <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="section-inner footer-inner">
+    <div>
+      <p class="footer-name">Shashini Anjana</p>
+      <p class="footer-role">Web Developer • Creative Designer • Digital Marketing Professional</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/shashini-anjana-945868267/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:shashinianjana2017@gmail.com"><i class="bi bi-envelope"></i></a>
+      <a href="tel:+94774113279"><i class="bi bi-telephone"></i></a>
+    </div>
+    <p class="footer-copy">&copy; <span id="year"></span> Shashini Anjana. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
